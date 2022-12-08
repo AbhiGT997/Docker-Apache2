@@ -1,0 +1,6 @@
+----< For running custom Docker image follow the commands >----
+1. docker pull pricegt/apache2:1.0
+2. docker images (Search whether the image exists or not ie:pricegt/apache2:1.0)
+3. docker run -d -p 8080:80 157dcdf23d6c (Replace with your image id)
+4. copy the public IP address from the ec2 instance, add:8080
+5. Apache 2 web server should be up and running saying "IT WORKS!!"
